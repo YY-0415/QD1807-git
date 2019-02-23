@@ -1,0 +1,260 @@
+@import "base";
+#dh{
+	border-bottom: 1px solid #e5e5e5;
+}
+#firstbox{
+	#first{
+		width:1205px;
+		height:59px;
+		margin:0 auto;
+		border-bottom: 1px solid #e5e5e5;
+		line-height:60px;
+		span{
+			float:left;
+			font-size:18px;
+		}
+		a{
+			float:right;
+			font-size:13px;
+			color:#666;
+			padding-left:35px;
+		}
+	}
+}
+#picbox{
+	#pic{
+		width:1205px;
+		margin:0 auto;
+		#pic-left{
+			width:344px;
+			height:468px;
+			padding:100px 148px 100px 148px;
+			float:left;
+		}
+		#pic-right{
+			width:565px;
+			float:right;
+			#product{
+				width:492px;
+				height:204px;
+				border-bottom:1px solid #EDEDED;
+				margin-left:30px;
+				#product-name{
+					font-size:22px;
+					color:#333;
+					margin-top:80px;
+				}
+				#product-text{
+					font-size:13px;
+					color:#6a6a77;
+					margin-top:30px;
+				}
+				#product-price{
+					font-size:22px;
+					color:#333;
+					margin-top:18px;
+				}
+				.product-support{
+					margin-top:30px;
+					color:#333;
+					a{
+						color:#333;
+					}
+				}
+			}
+			#list{
+				width:492px;
+				height:1041px;
+				margin-left:30px;
+				border-bottom:1px solid #EDEDED;
+				#colour{
+					width:492px;
+					height:88px;
+					p{
+						margin-top:30px;
+					}
+					#colour-list{
+						width:492px;
+						height:42px;
+						margin-top:20px;
+						#colour-first{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:left;
+							text-align:center;
+							line-height:42px;
+							a{
+								color:#333;
+							}		
+						}
+						#colour-last{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:right;
+							text-align:center;
+							line-height:42px;
+							a{
+								color:#333;
+							}
+						}
+					}
+					
+				}
+				#list-price{
+					width:492px;
+					height:152px;
+					p{
+						margin-top:30px;
+					}
+					#price-list{
+						width:492px;
+						height:152px;
+						margin-top:20px;
+						#price-first{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:left;
+							text-align:center;
+							line-height:42px;
+							a{
+								color:#333;
+							}		
+						}
+						#price-two{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:right;
+							text-align:center;
+							line-height:42px;
+							a{
+								color:#333;
+							}
+						}
+						#price-three{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:left;
+							text-align:center;
+							line-height:42px;
+							margin-top:20px;
+							a{
+								color:#333;
+							}		
+						}
+						#price-last{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:right;
+							text-align:center;
+							line-height:42px;
+							margin-top:20px;
+							a{
+								color:#333;
+							}
+						}
+					}
+				}
+				#list-service{
+					width:492px;
+					height:152px;
+					p{
+						margin-top:30px;
+					}
+					#service-list{
+						width:492px;
+						height:152px;
+						margin-top:20px;
+						#service-first{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:left;
+							text-align:center;
+							line-height:42px;
+							a{
+								color:#333;
+							}		
+						}
+						#service-two{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:right;
+							text-align:center;
+							line-height:42px;
+							a{
+								color:#333;
+							}
+						}
+						#service-three{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:left;
+							text-align:center;
+							line-height:42px;
+							margin-top:20px;
+							a{
+								color:#333;
+							}		
+						}
+						#service-four{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:right;
+							text-align:center;
+							line-height:42px;
+							margin-top:20px;
+							a{
+								color:#333;
+							}		
+						}
+						#service-last{
+							width:234px;
+							height:42px;
+							border:1px solid #81cdb1;
+							float:left;
+							text-align:center;
+							line-height:42px;
+							margin-top:20px;
+							a{
+								color:#333;
+							}
+						}
+					}
+				}
+				#list-gifts{
+					width:492px;
+					height:150px;
+					float:left;
+					#p1{
+						margin-top:30px;
+					}
+					#gifts-list{
+						width:492px;
+						height:116px;
+						margin-top:20px;
+						background:#fcfcfc;
+						img{
+							width:42px;
+							height:42px;
+							margin:30px 0 0 62px;
+						}
+						#p2{
+							font-size:14px;
+							color:#666;
+							margin-left:40px;
+						}
+					}					
+				}
+			}
+		}
+	}
+}
