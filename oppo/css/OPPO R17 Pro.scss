@@ -64,7 +64,7 @@
 			}
 			#list{
 				width:492px;
-				height:1041px;
+				height:835px;
 				margin-left:30px;
 				border-bottom:1px solid #EDEDED;
 				#colour{
@@ -253,6 +253,32 @@
 							margin-left:40px;
 						}
 					}					
+				}
+			}
+			#btn-list{
+				width:472px;
+				height:100px;
+				margin-left:30px;
+				#btn1{
+					width:192px;
+					height:60px;
+					float:left;
+					margin-top:20px;
+					border:none;
+					a{
+						color:#333;
+					}
+				}
+				#btn2{
+					width:192px;
+					height:60px;
+					float:right;
+					margin-top:20px;
+					background:#059157;
+					border:none;
+					a{
+						color:#fff;
+					}
 				}
 			}
 		}

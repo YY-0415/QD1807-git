@@ -6,7 +6,8 @@
 		<link rel="stylesheet" href="../css/mall.css">
 		<link rel="stylesheet" href="../iconfont/iconfont.css">
 		<link rel="stylesheet" href="../iconfont2/iconfont.css">
-		<script src = 'js/jquery-1.10.1.min.js'></script>
+		<script src = '../js/jquery-1.10.1.min.js'></script>
+		<script src = '../js/require.js' async="true" defer data-main = "../js/mainmall"></script>
 	</head> 
 	<body>
 		<div id='contain'>
@@ -17,9 +18,9 @@
 					</div>
 					<div id='navlist'>
 						<ul id='ul'>
-							<li class='first'><a href="">手机</a></li>
+							<li class='first'><a href="../index.html">手机</a></li>
 							<li class='two'><a href="brand.html">品牌</a></li>
-							<li class='two'><a href="">商城</a></li>
+							<li class='two'><a href="mall.html">商城</a></li>
 							<li class='two'><a href="">体验店</a></li>
 							<li class='two'><a href="">政企服务</a></li>
 							<li class='two'><a href="">服务</a></li>
@@ -35,17 +36,20 @@
 						<div id='navbag'>
 							<ul>
 						        <li>
-						            <a href="https://www.opposhop.cn/cart" target="_blank" id="oh-navbag-cart">
+						            <a href="" target="_blank" id="oh-navbag-cart">
+						            	<i class='iconfont'>&#xe50d;</i>
 						           		<span>购物车</span>
 						            </a>
 						        </li>
 						        <li>
-						          	<a href="https://www.opposhop.cn/orders" target="_blank" id="oh-navbag-order" class="oppo-tj">
+						          	<a href="" target="_blank" id="oh-navbag-order" class="oppo-tj">
+						          		<i class='iconfont'>&#xe651;</i>
 						            	<span>个人中心</span>
 						            </a>
 						        </li>
 						        <li>
-						            <a id="oh-navbag-login">
+						            <a href="html/login.html" target="_blank"  id="oh-navbag-login">
+						            	<i class='iconfont'>&#xe50e;</i>
 						            	<span>登录</span>
 						            </a>
 						        </li>
@@ -69,6 +73,89 @@
 						<li id='rl'><a href=""><img src="../images/l1_19.jpg" alt=""></a></li>
 						<li id='rl'><a href=""><img src="../images/l1_20.jpg" alt=""></a></li>
 					</ul>
+				</div>
+			</div>
+			<div id='play' class='play'>
+				<ol>
+			    	<li class="active"></li>
+			        <li></li>
+			        <li></li>
+			        <li></li>
+			        <li></li>
+			        <li></li>
+			        <li></li>
+			    </ol>
+				<ul>
+					<li><img src="../images/m1.jpg" alt=""></li>
+					<li><img src="https://dsfs.oppo.com/archives/201810/201810220910415bcd2bc54662a.jpg?x-oss-process=image/format,webp" alt=""></li>
+					<li><img src="https://dsfs.oppo.com/archives/201806/201806290306585b35e0aa0e338.jpg?x-oss-process=image/format,webp" alt=""></li>
+					<li><img src="https://dsfs.oppo.com/archives/201811/201811230211135bf7a181be7ac.png?x-oss-process=image/format,webp" alt=""></li>
+					<li><img src="https://dsfs.oppo.com/archives/201902/201902060902195c5a377f2fab0.jpg?x-oss-process=image/format,webp" alt=""></li>
+					<li><img src="https://dsfs.oppo.com/archives/201812/201812061012345c08837647098.jpg?x-oss-process=image/format,webp" alt=""></li>
+					<li><img src="https://dsfs.oppo.com/archives/201810/201810190910205bc9d92429356.jpg?x-oss-process=image/format,webp" alt=""></li>
+					<li><img src="../images/m1.jpg" alt=""></li>
+				</ul>
+			</div>
+			<div id='withbox'>
+				<div id='with' clear>
+					<div id='text'>
+						<p>配件</p>
+						<ul>
+							<li class='active'>推荐</li>
+							<li>数据线/适配器</li>
+							<li>耳机</li>
+							<li>保护壳</li>
+							<li>其他</li>
+						</ul>
+						<div style = 'display: block'>
+							<img src="../images/w1_03.jpg" alt="">
+							<img src="../images/w1_05.jpg" alt="">
+							<img src="../images/w1_07.jpg" alt="">
+							<img src="../images/w2_03.jpg" alt="">
+							<img src="../images/w2_05.jpg" alt="">
+							<img src="../images/w2_07.jpg" alt="">
+							<img src="../images/w2_09.jpg" alt="">
+						</div>
+						<div>
+							<img src="../images/shu3_03.jpg" alt="">
+							<img src="../images/shu3_05.jpg" alt="">
+							<img src="../images/shu3_07.jpg" alt="">
+							<img src="../images/shu4_03.jpg" alt="">
+							<img src="../images/shu4_05.jpg" alt="">
+							<img src="../images/shu4_07.jpg" alt="">
+							<img src="../images/shu4_09.jpg" alt="">
+							<img src="../images/shu2_03.jpg" alt="">
+							<img src="../images/shu2_05.jpg" alt="">
+							<img src="../images/shu2_07.jpg" alt="">
+							<img src="../images/shu2_09.jpg" alt="">
+							<img src="../images/shu_03.jpg" alt="">
+							<img src="../images/shu_05.jpg" alt="">
+						</div>
+						<div>
+							<img src="../images/er_03.jpg" alt="">
+							<img src="../images/er_05.jpg" alt="">
+							<img src="../images/er_07.jpg" alt="">
+							<img src="../images/er2_03.jpg" alt="">
+							<img src="../images/er2_05.jpg" alt="">
+						</div>
+						<div>
+							<img src="../images/ke_03.jpg" alt="">
+							<img src="../images/ke_05.jpg" alt="">
+							<img src="../images/ke_07.jpg" alt="">
+							<img src="../images/ke2_03.jpg" alt="">
+							<img src="../images/ke2_05.jpg" alt="">
+							<img src="../images/ke2_07.jpg" alt="">
+							<img src="../images/ke2_09.jpg" alt="">
+							<img src="../images/ke3_03.jpg" alt="">
+							<img src="../images/ke3_05.jpg" alt="">
+							<img src="../images/ke3_07.jpg" alt="">
+						</div>
+						<div>
+							<img src="../images/qi_03.jpg" alt="">
+							<img src="../images/qi_05.jpg" alt="">
+							<img src="../images/qi_07.jpg" alt="">
+						</div>
+					</div>
 				</div>
 			</div>
 			<div id='navbox'>
@@ -173,17 +260,15 @@
 					</section>
 					<section class="of-sns-content">
 				        <strong>关注我们：</strong>
-				        <a href="http://weibo.com/oppo" target="_blank" class="of-sns-link">
-				        	<img src="../images/b_03.jpg" alt="">
-				        	<!-- <span class="oc-text-inside">oppp官方 微博</span> -->
+				        <a href="" target="_blank" class="of-sns-link">
+				        	<i class='iconfont'>&#xe605;</i>
 				        </a>
-				        <a href="http://p.alipay.com/P/iNeaUvUf" target="_blank" class="of-sns-link" data-trigger="qrcode-alipay">
-				        	<img src="../images/b_05.jpg" alt="">
-				        	<!-- <span class="oc-text-inside">关注我们</span> -->
+				        <a href="" target="_blank" class="of-sns-link" data-trigger="qrcode-alipay">
+				        	<i class='iconfont'>&#xe758;</i>
 				        </a>
-				        <a href="https://www.oppo.com/cn/index.php/global" target="_blank" class="of-sns-link of-global-link">
+				        <a href="" target="_blank" class="of-sns-link of-global-link">
 				        	<b>|</b>
-				        	<img src="../images/b_07.jpg" alt="">
+				        	<i class='iconfont'>&#xe6df;</i>
 				        	<span>Global</span>
 				        </a>
 	    			</section>

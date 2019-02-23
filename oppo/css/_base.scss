@@ -13,8 +13,7 @@ a{
 	/*background:red;*/
 }
 #contain #dh{
-	width:1350px;
-	height:60px;
+
 }
 #contain #dh #header{
 	width:1200px;
@@ -35,7 +34,6 @@ a{
 }
 #contain #dh #ul li{
 	float:left;
-	color:black;
 }
 #contain #dh #ul li:first-child{
 	padding-left:90px;
@@ -44,7 +42,6 @@ a{
 	padding-right:54px;
 	text-align: center;
 	line-height:60px;
-
 }
 #contain #dh #ul li a:hover{
 	opacity:0.5;
@@ -61,7 +58,7 @@ a{
 #contain #dh #header #bag{
 	width:270px;
 	height:206px;
-	right:-80px;
+	right:0px;
 	position:absolute;
 	top:65px;
 	display:none;
@@ -94,7 +91,7 @@ a{
 	font-size:20px
 }
 #phone{
-	width:1366px;
+	width:1350px;
 	height:368px;
 	background:#dad9d9;
 	display:none;
@@ -118,4 +115,7 @@ a{
 }
 #phone #right1 ul #rl{
 	margin-top:5px;
+}
+#contain #dh{
+	margin:0 auto;
 }

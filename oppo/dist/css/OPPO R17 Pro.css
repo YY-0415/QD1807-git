@@ -11,10 +11,6 @@ a {
 #contain {
   /*background:red;*/ }
 
-#contain #dh {
-  width: 1350px;
-  height: 60px; }
-
 #contain #dh #header {
   width: 1200px;
   height: 60px;
@@ -33,8 +29,7 @@ a {
   margin-left: 90px; }
 
 #contain #dh #ul li {
-  float: left;
-  color: black; }
+  float: left; }
 
 #contain #dh #ul li:first-child {
   padding-left: 90px; }
@@ -59,7 +54,7 @@ a {
 #contain #dh #header #bag {
   width: 270px;
   height: 206px;
-  right: -80px;
+  right: 0px;
   position: absolute;
   top: 65px;
   display: none;
@@ -92,7 +87,7 @@ a {
   font-size: 20px; }
 
 #phone {
-  width: 1366px;
+  width: 1350px;
   height: 368px;
   background: #dad9d9;
   display: none; }
@@ -116,6 +111,9 @@ a {
 
 #phone #right1 ul #rl {
   margin-top: 5px; }
+
+#contain #dh {
+  margin: 0 auto; }
 
 #dh {
   border-bottom: 1px solid #e5e5e5; }
@@ -170,7 +168,7 @@ a {
           color: #333; }
     #picbox #pic #pic-right #list {
       width: 492px;
-      height: 1041px;
+      height: 835px;
       margin-left: 30px;
       border-bottom: 1px solid #EDEDED; }
       #picbox #pic #pic-right #list #colour {
@@ -323,3 +321,24 @@ a {
             font-size: 14px;
             color: #666;
             margin-left: 40px; }
+    #picbox #pic #pic-right #btn-list {
+      width: 472px;
+      height: 100px;
+      margin-left: 30px; }
+      #picbox #pic #pic-right #btn-list #btn1 {
+        width: 192px;
+        height: 60px;
+        float: left;
+        margin-top: 20px;
+        border: none; }
+        #picbox #pic #pic-right #btn-list #btn1 a {
+          color: #333; }
+      #picbox #pic #pic-right #btn-list #btn2 {
+        width: 192px;
+        height: 60px;
+        float: right;
+        margin-top: 20px;
+        background: #059157;
+        border: none; }
+        #picbox #pic #pic-right #btn-list #btn2 a {
+          color: #fff; }

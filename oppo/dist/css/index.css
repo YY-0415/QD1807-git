@@ -11,8 +11,8 @@ a {
 #contain {
   /*background:red;*/ }
 
-#contain #dh {
-  width: 1190px;
+#contain #dh #header {
+  width: 1200px;
   height: 60px;
   margin: 0 auto; }
 
@@ -54,7 +54,7 @@ a {
 #contain #dh #header #bag {
   width: 270px;
   height: 206px;
-  right: -80px;
+  right: 0px;
   position: absolute;
   top: 65px;
   display: none;
@@ -87,7 +87,7 @@ a {
   font-size: 20px; }
 
 #phone {
-  width: 1366px;
+  width: 1350px;
   height: 368px;
   background: #dad9d9;
   display: none; }
@@ -111,6 +111,9 @@ a {
 
 #phone #right1 ul #rl {
   margin-top: 5px; }
+
+#contain #dh {
+  margin: 0 auto; }
 
 /*2*/
 .play {

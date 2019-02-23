@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -10,10 +11,6 @@ a {
 
 #contain {
   /*background:red;*/ }
-
-#contain #dh {
-  width: 1350px;
-  height: 60px; }
 
 #contain #dh #header {
   width: 1200px;
@@ -33,8 +30,7 @@ a {
   margin-left: 90px; }
 
 #contain #dh #ul li {
-  float: left;
-  color: black; }
+  float: left; }
 
 #contain #dh #ul li:first-child {
   padding-left: 90px; }
@@ -59,7 +55,7 @@ a {
 #contain #dh #header #bag {
   width: 270px;
   height: 206px;
-  right: -80px;
+  right: 0px;
   position: absolute;
   top: 65px;
   display: none;
@@ -92,7 +88,7 @@ a {
   font-size: 20px; }
 
 #phone {
-  width: 1366px;
+  width: 1350px;
   height: 368px;
   background: #dad9d9;
   display: none; }
@@ -116,6 +112,57 @@ a {
 
 #phone #right1 ul #rl {
   margin-top: 5px; }
+
+#contain #dh {
+  margin: 0 auto; }
+
+/*play*/
+.play {
+  width: 1366px;
+  height: 550px;
+  overflow: hidden;
+  position: relative;
+  margin: 0,auto; }
+
+.play ol {
+  position: absolute;
+  right: 540px;
+  bottom: 5px;
+  z-index: 2; }
+
+.play ol li {
+  width: 10px;
+  height: 10px;
+  float: left;
+  margin-right: 30px;
+  display: inline;
+  /*cursor: pointer; */
+  background: #fcf2cf;
+  border-radius: 50%; }
+
+.active {
+  /*padding: 3px 8px; */
+  background: red;
+  position: relative;
+  bottom: 2px; }
+
+.play ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 8196px;
+  height: 550px; }
+
+.play ul li {
+  width: 1366px;
+  height: 550px;
+  float: left; }
+
+.play ul li img {
+  float: left;
+  width: 100%;
+  height: 100%; }
 
 /*3*/
 #bottombox {
@@ -214,7 +261,7 @@ a {
 
 /*2*/
 #contain #navbox {
-  margin-top: 300px; }
+  margin-top: 30px; }
 
 #contain #navbox #btmbox {
   width: 1349px;
@@ -249,3 +296,38 @@ a {
 #contain #navbox #btmbox .services-views .oc-row .col-xs-6 span {
   font-size: 0.7rem;
   color: #000; }
+
+/*配件*/
+#withbox {
+  background: #e1e4e3; }
+  #withbox #with {
+    width: 900px;
+    height: 100%;
+    /*background:#b9b5b5;*/
+    margin: 0px auto;
+    overflow: hidden; }
+    #withbox #with #text {
+      width: 900px;
+      margin-top: 20px;
+      line-height: 30px; }
+      #withbox #with #text p {
+        float: left;
+        font-size: 22px;
+        color: #333; }
+      #withbox #with #text ul {
+        float: right; }
+        #withbox #with #text ul li {
+          float: left;
+          padding: 0 16px;
+          font-size: 15px; }
+      #withbox #with #text div {
+        float: left;
+        display: none; }
+        #withbox #with #text div img {
+          margin: 10px 15px 10px 0;
+          float: left; }
+
+#with .active {
+  border-radius: 25px;
+  background: #fff;
+  color: #06b583; }
